@@ -1,0 +1,36 @@
+/*
+    * Root File
+    * Import all styles here.
+*/
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+@import "./base/base";
+@import "./components/components";
+@import "./fonts/fonts";
+@import "./icon-fonts/icons-fonts";
+@import "./mixin/mixin";
+@import "./pages/pages";
+@import "./themes/themes";
+@import "./utilities/utilities";
+@import "./variables/variables";
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
